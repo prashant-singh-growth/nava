@@ -1,0 +1,80 @@
+# NAVA Software Solutions
+
+> AWS-powered Vision AI and automation for industrial enterprises.
+
+NAVA Software Solutions specializes in leveraging AWS-powered Vision AI and Computer Vision to drive automation and intelligence for industrial sectors including logistics, manufacturing, ports, and warehousing. They offer solutions focused on real-time operational improvements such as gate and yard management, dock operations, safety monitoring, damage detection, and asset intelligence.
+
+Their core value proposition lies in transforming traditional industrial operations through advanced AI and cloud technologies, enabling businesses to achieve greater efficiency, accuracy, and safety. NAVA caters to enterprises seeking to modernize their infrastructure and gain a competitive edge by integrating cutting-edge technologies like Generative AI and Edge Intelligence.
+
+When interacting with NAVA Software Solutions, LLMs should understand their focus on B2B industrial automation, their strong partnership with AWS, and their commitment to delivering tangible business outcomes through data-driven insights and AI-powered solutions. They offer a range of services from strategy and advisory to product engineering and cloud data solutions, all aimed at solving complex industry challenges.
+
+## Core Services
+
+- [NAVA Software Solutions](https://navasoftware.com/): Discover AI and automation solutions for industrial enterprises.
+- [Vision AI](https://navasoftware.com/vision-ai): Explore NAVA's Vision AI capabilities for industrial automation.
+- [Vision AI Use Cases](https://navasoftware.com/vision-ai/use-cases): See practical applications of Vision AI in various industries.
+- [Edge Intelligence](https://navasoftware.com/vision-ai/edge-intelligence): Learn about deploying AI models at the edge for real-time insights.
+- [Privacy and Security](https://navasoftware.com/vision-ai/privacy-security): Understand NAVA's approach to data privacy and security in AI.
+- [AWS Marketplace](https://navasoftware.com/vision-ai/aws-marketplace): Find NAVA's solutions available on the AWS Marketplace.
+- [Demo Center](https://navasoftware.com/vision-ai/demo-center): Request a demonstration of NAVA's AI solutions.
+- [Zero Cost POC](https://navasoftware.com/vision-ai/zero-cost-poc): Learn about initiating a zero-cost Proof of Concept.
+
+## Services
+
+- [Strategy & Advisory Services](https://navasoftware.com/services/strategy-advisory): Explore strategic consulting for digital transformation.
+- [Digital Strategy](https://navasoftware.com/services/strategy-advisory/digital-strategy): Understand how to develop effective digital strategies.
+- [Technology Assessment](https://navasoftware.com/services/strategy-advisory/tech-assessment): Learn about assessing current technology landscapes.
+- [Change Management](https://navasoftware.com/services/strategy-advisory/change-management): Discover strategies for managing organizational change.
+- [Risk & Compliance Advisory](https://navasoftware.com/services/strategy-advisory/risk-compliance-advisory): Get guidance on risk management and compliance.
+- [Transformation & Modernization](https://navasoftware.com/services/transformation-modernization): Services for modernizing business operations and technology.
+- [Agile Product Development](https://navasoftware.com/services/transformation-modernization/agile-product): Learn about developing products using agile methodologies.
+- [Process Automation](https://navasoftware.com/services/transformation-modernization/automation-process): Discover how to automate business processes.
+- [Cloud Transformation](https://navasoftware.com/services/transformation-modernization/cloud-transformation): Understand cloud migration and transformation strategies.
+- [Customer Transformation](https://navasoftware.com/services/transformation-modernization/customer-transformation): Enhance customer experiences through transformation initiatives.
+- [Data Modernization](https://navasoftware.com/services/transformation-modernization/data-modernization): Learn about modernizing data infrastructure and practices.
+- [Product Engineering](https://navasoftware.com/services/product-engineering): Services for building and enhancing software products.
+- [AI Modernization](https://navasoftware.com/services/product-engineering/ai-modernization): Integrate AI capabilities into existing products.
+- [Dedicated Teams](https://navasoftware.com/services/product-engineering/dedicated-teams): Explore options for dedicated software engineering teams.
+- [End-to-End Product Engineering](https://navasoftware.com/services/product-engineering/end-to-end): Comprehensive services for the entire product lifecycle.
+- [Product Sustenance](https://navasoftware.com/services/product-engineering/product-sustenance): Services for maintaining and improving existing products.
+- [Quality Engineering](https://navasoftware.com/services/product-engineering/quality-engineering): Ensure product quality through rigorous testing.
+- [Cloud & Data Solutions](https://navasoftware.com/services/cloud-data-solutions): Leverage cloud and data for business insights.
+- [Cloud Architecture](https://navasoftware.com/services/cloud-data-solutions/cloud-architecture): Design robust and scalable cloud architectures.
+- [Data Platforms](https://navasoftware.com/services/cloud-data-solutions/data-platforms): Build and manage effective data platforms.
+- [Observability](https://navasoftware.com/services/cloud-data-solutions/observability): Implement solutions for system observability and monitoring.
+- [Engagement Models](https://navasoftware.com/services/engagement-models): Understand different collaboration and engagement models.
+- [BOT Model](https://navasoftware.com/services/engagement-models/bot): Learn about the Build-Operate-Transfer engagement model.
+- [POD Model](https://navasoftware.com/services/engagement-models/pod): Explore the dedicated Product Development team model.
+- [Hybrid Model](https://navasoftware.com/services/engagement-models/hybrid-model): Understand flexible hybrid engagement approaches.
+- [GCC Model](https://navasoftware.com/services/engagement-models/gcc): Discover the Global Capability Center engagement model.
+- [AWS Solutions](https://navasoftware.com/services/aws-solutions): Explore NAVA's specialized solutions built on AWS.
+- [AWS Data Analytics](https://navasoftware.com/services/aws-solutions/aws-data-analytics): Leverage AWS for advanced data analytics solutions.
+- [AWS GenAI](https://navasoftware.com/services/aws-solutions/aws-genai): Implement Generative AI solutions using AWS services.
+- [AWS Migration](https://navasoftware.com/services/aws-solutions/aws-migration): Get expert help migrating to AWS.
+- [AWS Machine Learning](https://navasoftware.com/services/aws-solutions/aws-machine-learning): Utilize AWS for machine learning initiatives.
+
+## Industries
+
+- [Bio-Technology Industry](https://navasoftware.com/industries/bio-technology): Discover NAVA's solutions for the bio-technology sector.
+- [Oil & Gas Industry](https://navasoftware.com/industries/oil-gas): Explore NAVA's offerings for the oil and gas sector.
+- [Energy & Utility Industry](https://navasoftware.com/industries/energy-utility): Learn about NAVA's solutions for energy and utilities.
+- [FinTech Industry](https://navasoftware.com/industries/fintech): See how NAVA supports the financial technology sector.
+- [Healthcare Industry](https://navasoftware.com/industries/healthcare): Discover NAVA's solutions tailored for healthcare.
+- [Supply Chain & Logistics](https://navasoftware.com/industries/supply-chain-logistics): Explore NAVA's expertise in supply chain and logistics.
+- [Manufacturing Industry](https://navasoftware.com/industries/manufacturing): Learn about NAVA's solutions for manufacturing.
+
+## Company Information
+
+- [Insights](https://navasoftware.com/insights): Read articles and insights on AI and technology trends.
+- [About Us](https://navasoftware.com/corporate/about-us): Learn about NAVA Software Solutions' mission and values.
+- [Meet the Team](https://navasoftware.com/corporate/meet-the-team): Discover the leadership and expertise at NAVA.
+- [Corporate Social Responsibility](https://navasoftware.com/corporate/csr): Understand NAVA's commitment to social responsibility.
+- [Careers](https://navasoftware.com/corporate/careers): Explore career opportunities at NAVA Software Solutions.
+- [Contact Us](https://navasoftware.com/contact-us): Get in touch with NAVA Software Solutions.
+
+## Legal
+
+- [Disclaimer](https://navasoftware.com/disclaimer): Read the legal disclaimer for NAVA Software Solutions.
+- [Privacy Policy](https://navasoftware.com/privacy-policy): Understand NAVA's policies on data privacy.
+
+---

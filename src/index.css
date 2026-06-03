@@ -1,0 +1,535 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NAVA Software Solutions Design System */
+@layer base {
+  :root {
+    /* Core Brand Colors - NAVA Dark Blue Theme */
+    --background: 0 0% 100%;
+    --foreground: 213 65% 11%;
+
+    --primary: 213 65% 11%; /* NAVA Dark Blue #0A1931 */
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 213 45% 25%;
+
+    /* Accent Colors */
+    --accent-blue: 200 90% 70%;
+    --accent-green: 140 60% 65%;
+    --accent-purple: 270 50% 70%;
+    --accent-light: 200 50% 85%;
+
+    /* Surface Colors */
+    --surface-dark: 213 65% 8%;
+    --surface-card: 220 10% 95%;
+    --surface-gray: 220 10% 85%;
+
+    /* Text Colors */
+    --text-white: 0 0% 100%;
+    --text-gray: 220 10% 60%;
+    --text-light-gray: 220 8% 75%;
+
+    /* Interactive States */
+    --hover-blue: 200 80% 60%;
+    --button-primary: 200 100% 50%;
+    --button-success: 140 60% 50%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--surface-dark)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent-blue)), hsl(var(--accent-purple)));
+    --gradient-card: linear-gradient(180deg, hsl(var(--surface-card)), hsl(var(--background)));
+
+    /* Shadows */
+    --shadow-card: 0 4px 20px -2px hsl(var(--primary) / 0.1);
+    --shadow-hover: 0 8px 30px -4px hsl(var(--primary) / 0.2);
+    --shadow-glow: 0 0 40px hsl(var(--accent-blue) / 0.3);
+
+    /* Animation */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.2s ease-out;
+
+    /* Legacy shadcn variables for compatibility */
+    --card: 0 0% 100%;
+    --card-foreground: 213 65% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 213 65% 11%;
+    --secondary: 220 10% 95%;
+    --secondary-foreground: 213 65% 11%;
+    --muted: 220 10% 95%;
+    --muted-foreground: 220 10% 60%;
+    --accent: 220 10% 95%;
+    --accent-foreground: 213 65% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 213 65% 11%;
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-poppins;
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Button Variants */
+  .btn-primary {
+    @apply bg-button-primary hover:bg-hover-blue text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 font-poppins;
+  }
+
+  .btn-success {
+    @apply bg-button-success hover:bg-accent-green text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 font-poppins;
+  }
+
+  .btn-outline {
+    @apply border-2 border-current text-button-primary hover:bg-button-primary hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 font-poppins;
+  }
+
+  /* Card Variants */
+  /* .card-hover {
+    @apply bg-surface-card rounded-xl p-6 shadow-card hover:shadow-hover transition-all duration-300 hover:scale-105;
+  } */
+
+  .card-dark {
+    @apply bg-primary text-white rounded-xl p-6 shadow-card;
+  }
+
+  /* Text Utilities */
+  .text-hero {
+    @apply text-4xl md:text-6xl font-bold text-white leading-tight font-poppins;
+  }
+
+  .text-section-title {
+    @apply text-3xl md:text-4xl font-bold text-foreground mb-4 font-poppins;
+  }
+
+  .text-section-subtitle {
+    @apply text-lg text-text-gray mb-8 font-poppins;
+  }
+
+  /* Background Patterns */
+  .bg-network-pattern {
+    background-image:
+      radial-gradient(circle at 20% 20%, hsl(var(--accent-blue) / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, hsl(var(--accent-purple) / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, hsl(var(--accent-blue) / 0.05) 0%, transparent 50%);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .bg-gradient-cta {
+    background:
+      linear-gradient(135deg, hsl(var(--primary)), hsl(var(--surface-dark))),
+      radial-gradient(circle at 50% 50%, hsl(var(--accent-blue) / 0.2) 0%, transparent 70%);
+  }
+
+  /* Animation Classes */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-glow {
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+
+  /* Industry Panel */
+  .industry-item {
+    @apply flex items-center gap-4 p-4 rounded-lg cursor-pointer transition-all duration-300;
+  }
+
+  .industry-item.active {
+    @apply bg-accent-blue/10 border-l-4 border-accent-blue;
+  }
+
+  .industry-item:hover {
+    @apply bg-surface-gray/50;
+  }
+
+  /* Carousel Styles */
+  .carousel-container {
+    @apply relative overflow-hidden;
+  }
+
+  .carousel-track {
+    @apply flex transition-transform duration-500 ease-out;
+  }
+
+  .carousel-card {
+    @apply flex-none mr-6;
+  }
+
+  /* OwlCarousel Custom Styles */
+  .owl-carousel-wrapper .owl-dots {
+    @apply flex justify-center mt-10 space-x-2;
+  }
+
+  .owl-carousel-wrapper .owl-dot {
+    @apply w-3 h-3 rounded-full bg-[#C7C7C7] transition-all duration-200;
+  }
+
+  .owl-carousel-wrapper .owl-dot.active {
+    @apply w-8 bg-[#1A61FF];
+  }
+
+  .owl-carousel-wrapper .owl-nav button {
+    @apply absolute top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full p-2 shadow-lg hover:shadow-xl transition-all duration-200 text-primary;
+  }
+
+  .owl-carousel-wrapper .owl-nav .owl-prev {
+    @apply left-4;
+  }
+
+  .owl-carousel-wrapper .owl-nav .owl-next {
+    @apply right-4;
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: hsl(var(--primary));
+  }
+  .bg-surface-dark {
+    background-color: hsl(var(--surface-dark));
+  }
+  .bg-surface-card {
+    background-color: hsl(var(--surface-card));
+  }
+  .bg-surface-gray {
+    background-color: hsl(var(--surface-gray));
+  }
+  .bg-accent-blue {
+    background-color: hsl(var(--accent-blue));
+  }
+  .bg-accent-green {
+    background-color: hsl(var(--accent-green));
+  }
+  .bg-accent-purple {
+    background-color: hsl(var(--accent-purple));
+  }
+  .bg-button-primary {
+    background-color: hsl(var(--button-primary));
+  }
+  .bg-button-success {
+    background-color: hsl(var(--button-success));
+  }
+  .bg-hover-blue {
+    background-color: hsl(var(--hover-blue));
+  }
+
+  .text-white {
+    color: hsl(var(--text-white));
+  }
+  .text-gray {
+    color: hsl(var(--text-gray));
+  }
+  .text-light-gray {
+    color: hsl(var(--text-light-gray));
+  }
+  .text-button-primary {
+    color: hsl(var(--button-primary));
+  }
+  .text-accent-blue {
+    color: hsl(var(--accent-blue));
+  }
+  .text-accent-green {
+    color: hsl(var(--accent-green));
+  }
+
+  .border-accent-blue {
+    border-color: hsl(var(--accent-blue));
+  }
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  .shadow-hover {
+    box-shadow: var(--shadow-hover);
+  }
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Override Tailwind preflight for controlled marquee images */
+  .marquee-img {
+    max-width: none;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+/* Keyframe Animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px hsl(var(--accent-blue) / 0.5);
+  }
+  100% {
+    box-shadow: 0 0 40px hsl(var(--accent-blue) / 0.8);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .text-hero {
+    @apply text-3xl md:text-4xl;
+  }
+
+  /* .card-hover {
+    @apply p-4;
+  } */
+}
+
+/* Tailwind-aware version — add inside your global CSS where you have @tailwind directives */
+/* @layer components {
+  @screen lg {
+    .service-grid > * {
+      border-left-width: 0;
+      border-top-width: 0;
+      border-style: solid;
+      border-color: #ACACAC88;
+    }
+
+    .service-grid > :not(:nth-child(3n+1)) {
+      border-left-width: 1px;
+    }
+
+    .service-grid > :nth-child(n+4) {
+      border-top-width: 1px;
+    }
+
+    .service-grid > .cta-card {
+      border-left-width: 0 !important;
+      border-top-width: 0 !important;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .service-grid > :nth-child(n+2) {
+      border-left-width: 1px;
+    }
+
+    .service-grid > :nth-child(n+3){
+      border-top-width: 1px;
+      border-left-width: 0;
+    }
+
+    .service-grid > :nth-child(n+4){
+      border-left-width: 1px;
+    }
+
+    .service-grid > :nth-child(n+5){
+      border-left-width: 0px;
+    }
+  }
+} */
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Container styling */
+.trusted-carousel {
+  display: flex;
+  gap: 5rem; /* adjust spacing */
+}
+
+/* Smooth infinite slide left */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%); /* move by half because we repeated items */
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  gap: 5rem;
+  animation: marquee 10s linear infinite;
+}
+
+/* ============================================================
+   Page-level scroll safety
+   - overflow-x: hidden  → kills any 1-2px x-overflow leaking from
+     translated/absolutely-positioned descendants. Safe here because
+     no `position: sticky` is used anywhere in src/.
+   - overscroll-behavior-x: none → disables horizontal rubber-band
+     bounce. Vertical bounce (the native iOS/macOS feel) is preserved.
+   ============================================================ */
+html, body {
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+}
+
+/* ============================================================
+   CLS (Cumulative Layout Shift) safeguards — universal defaults
+   ============================================================ */
+
+/* Reserve scrollbar gutter so opening modals/menus that lock scroll
+   doesn't shift the page horizontally. */
+html {
+  scrollbar-gutter: stable;
+}
+
+/* Media defaults: keep intrinsic aspect ratio when scaled.
+   When <img>/<video>/<iframe> have width+height attributes, the browser
+   already reserves the box; these rules ensure scaling doesn't break it. */
+img, video, iframe, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* When an image explicitly declares width AND height attributes, lock the
+   aspect ratio so lazy-loaded images never shift surrounding content. */
+img[width][height] {
+  aspect-ratio: attr(width) / attr(height);
+}
+
+/* Reserve space for media that hasn't loaded yet inside known wrappers. */
+.media-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+.media-frame > img,
+.media-frame > video,
+.media-frame > iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Skeleton placeholder utility — reserves height with a subtle shimmer so
+   async content swaps in without shifting siblings. */
+.skeleton-block {
+  background: linear-gradient(
+    90deg,
+    hsl(var(--muted)) 0%,
+    hsl(var(--muted) / 0.6) 50%,
+    hsl(var(--muted)) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.4s ease-in-out infinite;
+  border-radius: var(--radius);
+}
+@keyframes skeleton-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Font rendering: avoid invisible-text flash and metric mismatch shift.
+   Poppins is loaded with &display=swap; this reinforces consistent metrics
+   for the system fallback so the swap is visually minimal. */
+:root {
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+}
+
+/* Respect users' motion preferences — prevents animation-driven shifts. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

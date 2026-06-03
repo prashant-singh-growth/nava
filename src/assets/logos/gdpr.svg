@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <path d="M60 8 L108 35 L108 85 L60 112 L12 85 L12 35 Z" stroke="#8899AA" stroke-width="2" fill="none"/>
+  <path d="M60 16 L100 39 L100 81 L60 104 L20 81 L20 39 Z" stroke="#8899AA" stroke-width="1" fill="none"/>
+  <text x="60" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">GDPR</text>
+  <text x="60" y="74" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8899AA">COMPLIANT</text>
+  <rect x="52" y="30" width="16" height="12" rx="6" stroke="#8899AA" stroke-width="1.5" fill="none"/>
+  <rect x="48" y="38" width="24" height="14" rx="2" fill="#8899AA" opacity="0.3"/>
+</svg>

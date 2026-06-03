@@ -1,0 +1,66 @@
+{
+  "prerenderServiceUrl": "https://service.prerender.io/",
+  "routes": {
+    "/insights/blog/*": {
+      "cacheStrategy": "CacheFirst",
+      "cacheDuration": 86400
+    },
+    "/insights/case-study/*": {
+      "cacheStrategy": "CacheFirst",
+      "cacheDuration": 86400
+    },
+    "/insights/whitepaper/*": {
+      "cacheStrategy": "CacheFirst",
+      "cacheDuration": 86400
+    },
+    "/vision-ai-industrial-safety": {
+      "cacheStrategy": "CacheFirst",
+      "cacheDuration": 86400
+    },
+    "/vision-ai-industrial-safety/": {
+      "cacheStrategy": "CacheFirst",
+      "cacheDuration": 86400
+    },
+    "/vision-ai-dock-operations": {
+      "cacheStrategy": "CacheFirst",
+      "cacheDuration": 86400
+    },
+    "/vision-ai-dock-operations/": {
+      "cacheStrategy": "CacheFirst",
+      "cacheDuration": 86400
+    }
+  },
+  "crawlers": [
+    "googlebot",
+    "bingbot",
+    "yandex",
+    "baiduspider",
+    "facebookexternalhit",
+    "twitterbot",
+    "rogerbot",
+    "linkedinbot",
+    "embedly",
+    "quora link preview",
+    "showyoubot",
+    "outbrain",
+    "pinterest/0.",
+    "developers.google.com/+/web/snippet",
+    "slackbot",
+    "vkShare",
+    "W3C_Validator",
+    "redditbot",
+    "Applebot",
+    "WhatsApp",
+    "flipboard",
+    "tumblr",
+    "bitlybot",
+    "SkypeUriPreview",
+    "nuzzel",
+    "Discordbot",
+    "Google Page Speed",
+    "Qwantify",
+    "pinterestbot",
+    "Bitrix link preview",
+    "XING-contenttabreceiver"
+  ]
+}

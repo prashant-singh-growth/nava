@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <path d="M60 10 L100 30 L100 75 C100 90 80 108 60 114 C40 108 20 90 20 75 L20 30 Z" stroke="#8899AA" stroke-width="2" fill="none"/>
+  <path d="M60 20 L92 36 L92 73 C92 85 76 100 60 105 C44 100 28 85 28 73 L28 36 Z" stroke="#8899AA" stroke-width="1" fill="none"/>
+  <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">SOC 2</text>
+  <text x="60" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#C6C6C6">TYPE II</text>
+  <path d="M46 82 L53 89 L74 68" stroke="#4CAF50" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
