@@ -19,7 +19,7 @@ import TheftProtectionViewImg from "../../assets/Images/TheftProtectionView-2.we
 // Industry images
 import PortsMarineImg from "../../assets/Images/industries/ports-marine.webp";
 import SupplyChainImg from "../../assets/Images/industries/supply-chain.webp";
-import WarehouseImg from "../../assets/Images/industries/warehouse.webp";
+import WarehouseImg from "../../assets/Images/Industries/warehouse.webp";
 import ManufacturingImg from "../../assets/Images/industries/manufacturing.webp";
 import IndustrialYardImg from "../../assets/Images/industries/industrial-yard.webp";
 import EnergyUtilitiesImg from "../../assets/Images/industries/energy-utilities.webp";
