@@ -254,7 +254,7 @@ Blogthat Inspire
                         <>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto relative">
                                 {currentPosts.map((post, index) => (
-                                    <div
+                                    <a href={`/blog/${post.slug}`}
                                         key={post.id}
                                         className="bg-white group rounded-3xl p-4 md:p-6 cursor-pointer flex flex-col"
                                         onClick={() => handlePostClick(post)}
@@ -300,7 +300,7 @@ Blogthat Inspire
                                                         group-hover:translate-x-0 group-hover:opacity-100" />
                                         </button>
                                     </div>
-                                </div>
+                                </a>
                                 ))}
                             </div>
 
