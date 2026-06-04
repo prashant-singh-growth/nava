@@ -184,7 +184,7 @@ const Blog = () => {
                             <img src={patharrowicon} alt="" className="w-5 h-5" />{" "}
                         </span>
                         <span className="text-[#000000]">
-                            Insights
+                            Blog
                         </span>
                     </nav>
                 </div>
@@ -193,7 +193,7 @@ const Blog = () => {
                 <section className="insights-header-section border-b border-b-[#7070701f]">
                     <div className="container mx-auto px-0">
                         <p className="relative text-[#000000] text-lg font-normal mb-4 pb-4 inline-block">
-                            Insights
+                        Blog
                             <span className="absolute left-0 bottom-0 w-20 h-1 bg-[#0059FF] rounded-full"></span>
                         </p>
 
@@ -254,7 +254,7 @@ Blogthat Inspire
                         <>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto relative">
                                 {currentPosts.map((post, index) => (
-                                    <a href={`/blog/${post.slug}`}
+                                    <div
                                         key={post.id}
                                         className="bg-white group rounded-3xl p-4 md:p-6 cursor-pointer flex flex-col"
                                         onClick={() => handlePostClick(post)}
@@ -300,7 +300,7 @@ Blogthat Inspire
                                                         group-hover:translate-x-0 group-hover:opacity-100" />
                                         </button>
                                     </div>
-                                </a>
+                                </div>
                                 ))}
                             </div>
 
