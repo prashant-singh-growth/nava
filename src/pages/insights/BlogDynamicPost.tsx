@@ -24,8 +24,7 @@ interface WordPressPost {
         best_practices?: string;
         best_practices_8_block_content?: string;
         conclusion?: string;
-          seo_title?:string;
-        seo_description?:string;
+      
     };
 }
 
