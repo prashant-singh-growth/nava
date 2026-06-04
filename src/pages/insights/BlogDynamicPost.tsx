@@ -24,6 +24,8 @@ interface WordPressPost {
         best_practices?: string;
         best_practices_8_block_content?: string;
         conclusion?: string;
+          seo_title?:string;
+        seo_description?:string;
     };
 }
 
@@ -50,7 +52,7 @@ const BlogDynamicPost = () => {
             setLoading(false);
         }
     };   
-
+console.log(post)
 
     if (loading) {
         return (
@@ -102,8 +104,8 @@ const BlogDynamicPost = () => {
     return (
         <div className="">
             <Helmet>
-                <title>{pageTitle} - NAVA Software Solutions</title>
-                <meta name="description" content={pageDescription} />
+                <title>{post.acf.seo_title ? post.acf.seo_title : pageTitle}</title>
+                <meta name="description" content={post.acf.seo_description ? post.acf.seo_description : pageDescription} />
                 
                 {/* Open Graph tags */}
                 <meta property="og:title" content={pageTitle} />

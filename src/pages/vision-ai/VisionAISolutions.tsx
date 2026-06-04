@@ -17,13 +17,13 @@ import InventoryViewImg from "../../assets/Images/InventoryView-2.webp";
 import TheftProtectionViewImg from "../../assets/Images/TheftProtectionView-2.webp";
 
 // Industry images
-import PortsMarineImg from "../../assets/Images/industries/ports-marine.webp";
-import SupplyChainImg from "../../assets/Images/industries/supply-chain.webp";
+import PortsMarineImg from "../../assets/Images/Industries/ports-marine.webp";
+import SupplyChainImg from "../../assets/Images/Industries/supply-chain.webp";
 import WarehouseImg from "../../assets/Images/Industries/warehouse.webp";
-import ManufacturingImg from "../../assets/Images/industries/manufacturing.webp";
-import IndustrialYardImg from "../../assets/Images/industries/industrial-yard.webp";
-import EnergyUtilitiesImg from "../../assets/Images/industries/energy-utilities.webp";
-import RetailGroceryImg from "../../assets/Images/industries/retail-grocery.webp";
+import ManufacturingImg from "../../assets/Images/Industries/manufacturing.webp";
+import IndustrialYardImg from "../../assets/Images/Industries/industrial-yard.webp";
+import EnergyUtilitiesImg from "../../assets/Images/Industries/energy-utilities.webp";
+import RetailGroceryImg from "../../assets/Images/Industries/retail-grocery.webp";
 import AwsPartnerLogo from "../../assets/logos/aws-partner-new-logo.webp";
 
 import LazySection from "@/components/LazySection";

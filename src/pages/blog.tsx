@@ -84,8 +84,8 @@ const Blog = () => {
             setCategories(sortedCategories);
             
             // Apply initial filter from URL if present
-            const categoryParam = searchParams.get("category");
-            if (categoryParam && categoryParam !== "All") {
+            const categoryParam = "Blog";
+            if (categoryParam) {
                 const filteredPosts = data.filter(post => 
                     post?.categories[0]?.name === categoryParam
                 );
