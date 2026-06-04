@@ -103,7 +103,7 @@ console.log(post)
 
     return (
         <div className="">
-            <Helmet>
+            {post && <Helmet>
                 <title>{post.acf.seo_title ? post.acf.seo_title : pageTitle}</title>
                 <meta name="description" content={post.acf.seo_description ? post.acf.seo_description : pageDescription} />
                 
@@ -132,7 +132,7 @@ console.log(post)
                 
                 {/* Canonical URL */}
                 <link rel="canonical" href={`https://navasoftware.com/blog/${post?.slug}`} />
-            </Helmet>
+            </Helmet>}
 
             {/* Hero Section */}
             <section className="relative text-white py-20">
