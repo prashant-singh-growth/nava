@@ -71,7 +71,7 @@ console.log(post)
                 <div className="container mx-auto px-4 py-20 text-center">
                     <h1 className="text-2xl font-semibold mb-4">Post Not Found</h1>
                     <p className="text-gray-600">The requested post could not be found.</p>
-                    <Link to="/insights" className="text-primary hover:text-[#427AE0] mt-4 inline-block">
+                    <Link to="/blog" className="text-primary hover:text-[#427AE0] mt-4 inline-block">
                         Return to Insights
                     </Link>
                 </div>
@@ -152,11 +152,11 @@ console.log(post)
                                 Home
                             </Link>
                             <span className="text-white/70">/</span>
-                            <Link to="/insights" className="text-white/70 hover:text-white transition-colors">
-                                Insights
+                            <Link to="/blog" className="text-white/70 hover:text-white transition-colors">
+                                Blog
                             </Link>
-                            <span className="text-white/70">/</span>
-                            <span className="text-white">{category}</span>
+                            {/* <span className="text-white/70">/</span>
+                            <span className="text-white">{category}</span> */}
                         </div>
                     </nav>
 
